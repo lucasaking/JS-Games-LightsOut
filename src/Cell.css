@@ -1,0 +1,26 @@
+.Cell {
+  height: 100px;
+  width: 100px;
+  border-radius: 1px;
+  background-color: rgba(19, 80, 57, 0.5);
+  transition: background-color 0.5s ease;
+  box-shadow: 0 0 3px 1px rgb(15, 255, 183);
+  cursor: pointer;
+}
+
+
+
+.Cell-lit {
+  background-color: rgb(7, 255, 111)
+}
+
+#cell-id {
+  border: 1px solid rgb(0, 70, 35);
+  animation: color-change 1s infinite;
+}
+
+@keyframes color-change {
+  0% { border: 1px solid rgb(0, 0, 0); }
+  50% { border: 1px solid blue; } 
+  100% { border-color: 1px solid rgb(45, 4, 58); }
+}

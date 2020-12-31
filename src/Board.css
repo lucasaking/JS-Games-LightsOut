@@ -1,0 +1,14 @@
+.body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.Board {
+  margin: 0 auto;
+  border: 5px solid rgb(13, 19, 100);
+}
+
+h1 {
+  font-family: monospace;
+  font-size: 100px;
+}
